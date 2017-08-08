@@ -1,0 +1,17 @@
+group 'com.jack'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'war'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'javax.servlet:javax.servlet-api:3.1.0'
+    compile 'org.springframework:spring-webmvc:4.3.6.RELEASE'
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}

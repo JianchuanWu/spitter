@@ -1,0 +1,33 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gradle : com.jack : spitter-1.0-SNAPSHOT.war (exploded)">
+    <output-path>$PROJECT_DIR$/build/libs/exploded/spitter-1.0-SNAPSHOT.war</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$">
+        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQoNCg==</manifest>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/build/libs/exploded/spitter-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="spitter_main/web/Web Gradle : spitter-1.0-SNAPSHOT.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="spitter_main" />
+          <element id="dir-copy" path="$PROJECT_DIR$/out/production/resources" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: javax.servlet:javax.servlet-api:3.1.0" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc:4.3.6.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-aop:4.3.6.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-beans:4.3.6.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-context:4.3.6.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-core:4.3.6.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-expression:4.3.6.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-web:4.3.6.RELEASE" />
+          <element id="library" level="project" name="Gradle: commons-logging:commons-logging:1.2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
