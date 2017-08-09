@@ -17,15 +17,18 @@
           <element id="dir-copy" path="$PROJECT_DIR$/out/production/resources" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Gradle: javax.servlet:javax.servlet-api:3.1.0" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc:4.3.6.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-context:4.3.6.RELEASE" />
+          <element id="library" level="project" name="Gradle: javax.servlet:javax.servlet-api:3.1.0" />
+          <element id="library" level="project" name="Gradle: javax.servlet.jsp:jsp-api:2.2" />
+          <element id="library" level="project" name="Gradle: javax.servlet:jstl:1.2" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-aop:4.3.6.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-beans:4.3.6.RELEASE" />
-          <element id="library" level="project" name="Gradle: org.springframework:spring-context:4.3.6.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-core:4.3.6.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-expression:4.3.6.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-web:4.3.6.RELEASE" />
           <element id="library" level="project" name="Gradle: commons-logging:commons-logging:1.2" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/4.3.6.RELEASE/233edfdbe5f895cd6585001ef30122e5604442b4/spring-test-4.3.6.RELEASE.jar" />
         </element>
       </element>
     </root>
