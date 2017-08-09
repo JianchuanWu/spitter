@@ -19,6 +19,8 @@
         <element id="directory" name="lib">
           <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc:4.3.6.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-context:4.3.6.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-test:4.3.6.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.apache.commons:commons-lang3:3.1" />
           <element id="library" level="project" name="Gradle: javax.servlet:javax.servlet-api:3.1.0" />
           <element id="library" level="project" name="Gradle: javax.servlet.jsp:jsp-api:2.2" />
           <element id="library" level="project" name="Gradle: javax.servlet:jstl:1.2" />
@@ -28,7 +30,18 @@
           <element id="library" level="project" name="Gradle: org.springframework:spring-expression:4.3.6.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-web:4.3.6.RELEASE" />
           <element id="library" level="project" name="Gradle: commons-logging:commons-logging:1.2" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/4.3.6.RELEASE/233edfdbe5f895cd6585001ef30122e5604442b4/spring-test-4.3.6.RELEASE.jar" />
+          <element id="library" level="project" name="Gradle: org.hamcrest:hamcrest-core:1.3" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-module-junit4/1.6.5/e6ad8d4fddb3cc1e11ebf343ecc82ea10b12d5a4/powermock-module-junit4-1.6.5.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-api-mockito/1.6.5/7f5cf8f0ddb3539b28581431bbeda4d81ff5ef02/powermock-api-mockito-1.6.5.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-module-junit4-common/1.6.5/ef0b8507142b3c176d1b8a1937a8490eaf8babe9/powermock-module-junit4-common-1.6.5.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/1.10.19/e8546f5bef4e061d8dd73895b4e8f40e3fe6effe/mockito-core-1.10.19.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-api-mockito-common/1.6.5/50929570ea185735f8f038ea650a60f6444e7ec3/powermock-api-mockito-common-1.6.5.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-core/1.6.5/5c7f30af24a260b9a452c194be0cca373db9aaf6/powermock-core-1.6.5.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-reflect/1.6.5/3569903763e7741965acc9627ad8253d210feedf/powermock-reflect-1.6.5.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.powermock/powermock-api-support/1.6.5/9b0cdf26351d3608a1bf11d3a5b8c96e9c32605/powermock-api-support-1.6.5.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.20.0-GA/a9cbcdfb7e9f86fbc74d3afae65f2248bfbf82a0/javassist-3.20.0-GA.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.2/3fb533efdaa50a768c394aa4624144cf8df17845/objenesis-2.2.jar" />
         </element>
       </element>
     </root>
