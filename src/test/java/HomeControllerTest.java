@@ -51,6 +51,22 @@ public class HomeControllerTest {
                 .andExpect(model().attribute("spitterList", hasItems(expectedSpitters.toArray())));
     }
 
+    @Test
+    public void shouldShowPagedSpitters() throws Exception {
+        List<Spitter> expectedPageSpitters = createSpitterList(50);
+        SpitterRepository mockRepository = mock(SpitterRepository.class);
+        when(mockRepository.findSpitters(2300, 50))
+                .thenReturn(expectedPageSpitters);
+        SpitterController controller = new SpitterController(mockRepository);
+        MockMvc mockMvc = standaloneSetup(controller)
+                .setSingleView(new InternalResourceView("/WEB-INF/views/spitters.jsp"))
+                .build();
+        mockMvc.perform(get("/spitters?max=2300&count=50"))
+                .andExpect(view().name("spitters"))
+                .andExpect(model().attributeExists("spitterList"))
+                .andExpect(model().attribute("spitterList", hasItems(expectedPageSpitters.toArray())));
+    }
+
     private List<Spitter> createSpitterList(int count) {
         List<Spitter> spitters = new ArrayList<>();
         for (int i = 0; i < count; i++) {
